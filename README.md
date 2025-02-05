@@ -1,59 +1,64 @@
-# Project-Name: Blood Donation
 
-**Live Link:** [Blood Donation](https://blood-donate-347ce.web.app)
+# 🩸 Blood Donation Application
 
-## Introduction
+A MERN Stack-based Blood Donation Platform to connect donors with recipients seamlessly.
 
-The Blood Donation Application is a comprehensive platform designed to facilitate seamless blood donation activities. Built using the MERN stack (MongoDB, Express.js, React, Node.js), the application connects donors with those in need of blood, ensuring an efficient donation process.
+## 🚀 Live Demo  
+🔗 [Blood Donation](https://blood-donate-347ce.web.app)
 
-## Key Features
+## 🛠 Admin Credentials  
+- **Username:** `admin@w.com`  
+- **Password:** `admin123`  
 
-1. **User-Friendly Registration and Authentication**
-   - Intuitive user registration with essential details, including blood group and location.
-   - Secure login functionality using email and password authentication.
+## 📌 Key Features  
 
-2. **Role-Based Dashboards**
-   - Different dashboards for Admin, Donor, and Volunteer roles with role-specific functionalities.
-   - Admin dashboard includes user management, donation request management, and content management features.
+- **🔹 User Authentication:** Register/Login as a Donor, Volunteer, or Admin.  
+- **🔹 Role-Based Access:** Admin has full control, Volunteers manage donation requests.  
+- **🔹 Dashboard:** Personalized dashboard for each role.  
+- **🔹 Blood Donation Requests:** Create, manage, and track donation requests.  
+- **🔹 Search Donors:** Find donors based on blood group and location.  
+- **🔹 User Management:** Admin can block/unblock users & assign roles.  
+- **🔹 Blog System:** Admin/Volunteers can create, edit, and publish blogs.  
+- **🔹 Funding System:** Secure Stripe integration for donations.  
+- **🔹 Notifications:** Sweet alerts & toast notifications for all actions.  
+- **🔹 JWT Authentication:** Secure private routes & APIs.  
+- **🔹 Fully Responsive:** Works on mobile, tablet, and desktop.  
 
-3. **Donor Dashboard**
-   - Personalized donor dashboard displaying recent donation requests and quick access to manage them.
-   - Ability to create, edit, and delete donation requests with real-time status updates.
+## 🛠 Tools & Technologies  
 
-4. **Admin Dashboard**
-   - Admin-exclusive features such as managing users, blood donation requests, and content.
-   - Statistics cards providing a snapshot of total users, funding, and blood donation requests.
+| Frontend | Backend | Database | Authentication | Other |
+|----------|--------|----------|----------------|-------|
+| React.js | Node.js | MongoDB | Firebase & JWT | TanStack Query |
+| Tailwind CSS | Express.js | Mongoose | ImageBB API | Axios |
+| React Router | | | | React Hook Form |
+| Jodit-react (Rich Text Editor) | | | | Stripe Integration |
 
-5. **Content Management**
-   - Admin-controlled blog management with the ability to create, edit, publish, unpublish, and delete blogs.
-   - Rich text editor for creating and editing blog content.
+## 🚦 **Getting Started**  
 
-## Usage Instructions
+1. Clone the repository:  
+    ```bash
+    git clone https://github.com/yourusername/blood-donation.git
+    cd blood-donation
+    ```
+2. Install dependencies:  
+    ```bash
+    npm install
+    ```
+3. Start the development server:  
+    ```bash
+    npm run dev
+    ```
 
-1. **User Registration and Login**
-   - Visit the home page and register for an account with necessary details.
-   - Use the registered credentials to log in and access the personalized dashboard.
+---
 
-2. **Donation Requests**
-   - Donors can create, edit, and delete their donation requests from the dashboard.
-   - Admin has the authority to manage all users' donation requests.
+## 🤝 **Contributing**  
 
-3. **User Management**
-   - Admin can view and manage all users, including blocking and unblocking users.
-   - Role modification options available for promoting users to volunteers or admins.
+Contributions are welcome! Please fork this repository and submit a pull request.  
 
-4. **Content Management**
-   - Admin-exclusive access to content management for creating, editing, publishing, and unpublishing blogs.
+---
 
-5. **Responsive Design**
-   - The entire website, including dashboards, is designed to be responsive for seamless user experience across devices.
+## 📧 **Contact**  
 
-## Bonus Features
+For support or inquiries, reach out at: **[nazimuddinasif.1@gmail.com](mailto:your.email@example.com)**  
 
-- **Funding Page with Stripe Integration**
-  - Users can contribute funds securely using Stripe payment integration.
-  - Funding history is displayed for transparency and accountability.
-
-- **JWT Authentication**
-
-"# Blood-Donation" 
+**Star ⭐ this repo if you find it useful! Happy Coding! 🚀**  
